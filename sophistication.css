@@ -1,7 +1,7 @@
 html {
-	background: url(image/test1.jpeg) no-repeat center center fixed;
-	background-size: cover;
-	font-family: Arial;
+    background: url(image/test1.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial;
     border: 0px solid black;
     overflow-x: hidden;
     margin: 0;
@@ -9,27 +9,28 @@ html {
 }
 
 body {
-  background-color: transparent ;
+    background-color: transparent;
     border: 0px solid black;
 }
 
 .foto {
-	border: 0px solid black;
-  
-}
-.btn-contacts{
-  margin-top: 20px;
+    border: 0px solid black;
+
 }
 
-.img-container{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  margin-top: 100px;
+.btn-contacts {
+    margin-top: 20px;
+}
+
+.img-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-top: 100px;
 }
 
 .navigation {
-	background-color: transparent;
+    background-color: transparent;
     border: 0px solid #D2F98F;
     margin: 10px 10px 10px 5px;
     text-align: center;
@@ -37,34 +38,35 @@ body {
 }
 
 .header {
-	background-color: transparent;
+    background-color: transparent;
     border: 0px solid black;
-    margin-top: 150px;
+    margin-top: 70px;
 }
 
 .center {
-	background-color: transparent;
+    background-color: transparent;
     border: 0px solid black;
     text-indent: -15px;
 }
 
-.center > h4 {   /*указать на тег внутри класса*/
+.center > h4 { /*указать на тег внутри класса*/
     line-height: 1.8;
 }
+
 .center > h3 {
-	text-align: center;
+    text-align: center;
 }
 
 .bottom {
-   border: 0px solid black;
-   text-align: center;
+    border: 0px solid black;
+    text-align: center;
 }
 
 .contacts {
-	margin: 150px auto;
+    margin: 150px auto;
     height: 200px;
     text-align: left;
-    border:0px solid black;
+    border: 0px solid black;
 }
 
 .contacts {
@@ -72,60 +74,61 @@ body {
 }
 
 .slider_wrap {
-	border: 8px solid #D2F98F;
-	width:340px;
-	height:400px;
-	position:relative;
-	overflow:hidden;
+    border: 8px solid #D2F98F;
+    width: 340px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
 }
 
 .slider_wrap img {
-	width:100%;
-	height:auto;
-	display:none;
-	position:absolute;
-	top:0;
-	left:0;	
+    width: 100%;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+
 .slider_wrap img:first-child {
-	display:block;
+    display: block;
 }
 
 #video {
-	border: 0px solid #D2F98F;
-	margin: 15px 110px 80px 130px;
+    border: 0px solid #D2F98F;
+    margin: 15px 110px 80px 130px;
 }
 
 #st {
-	text-align: right;
-	font-size: 35px;
+    text-align: center;
+    font-size: 35px;
 }
 
 .name {
-	text-align: right;
-	font-weight: bold;
-    font-size: xx-large; 
+    text-align: right;
+    font-weight: bold;
+    font-size: xx-large;
     text-decoration: underline;
 }
 
 .kiev {
-   border: 0px solid black;
-   text-align: center;
-   margin: 10px auto 80px auto;
+    border: 0px solid black;
+    text-align: center;
+    margin: 10px auto 80px auto;
 }
 
 #best {
-	text-align: right;
-	font-size: x-large;
+    text-align: right;
+    font-size: x-large;
 }
 
- /*top menu buttons*/
-  .top-menu-button:hover {
-   text-decoration: none;
-   color: #D0FF00 !important;
-   text-shadow: #D0FF00 0px 0 1px !important;
-   cursor: pointer ;
-   transition: color 0.7s
+/*top menu buttons*/
+.top-menu-button:hover {
+    text-decoration: none;
+    color: #D0FF00 !important;
+    text-shadow: #D0FF00 0px 0 1px !important;
+    cursor: pointer;
+    transition: color 0.7s
 }
 
 .top-menu-button {
@@ -133,97 +136,101 @@ body {
     background-color: black;
     text-transform: uppercase;
     text-decoration: none;
-    color: white !important; 
+    color: white !important;
 }
 
-.legend,h1,h2,h4,h3 {
-  font-family: 'Indie Flower', cursive !important;
-  font-weight: bold;
+.legend, h1, h2, h4, h3 {
+    font-family: 'Indie Flower', cursive !important;
+    font-weight: bold;
 }
 
-.footer{
-  background-color: #333;
-  min-height: 150px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  margin: 0;
-  overflow: hidden;
-  margin-top: 50px;
+.footer {
+    background-color: #333;
+    min-height: 150px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0;
+    overflow: hidden;
+    margin-top: 50px;
 }
 
-.contact > h4{
-  text-transform: uppercase;
-  color: #46cf1d;
-  padding-bottom: 15px;
+.contact > h4 {
+    text-transform: uppercase;
+    color: #46cf1d;
+    padding-bottom: 15px;
 }
 
-.fa{
-  color: #46cf1d;
-  margin-right: 15px;
+.fa {
+    color: #46cf1d;
 }
 
-.contact-items{
-  padding-left: 0;
+.contact-items {
+    padding-left: 0;
 }
 
-.contact-items a{
-  color: #ffffff;
-  text-decoration: none;
+.contact-items a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
-.contact-items a:hover{
-   color: #46cf1d;
+.contact-items a:hover {
+    color: #46cf1d;
 }
 
-.contact-items{
-  line-height: 1.5;
+.contact-items {
+    line-height: 1.5;
 }
 
-span{
-  color: #ffffff;
+span {
+    color: #ffffff;
 }
 
 @media (max-width: 600px) {
-  .slider_wrap {
-   width: 300px;
-   height: 380px;
-  }
-  .img-container{
-    margin-top: 0;
-  }
+    .slider_wrap {
+        width: 300px;
+        height: 380px;
+    }
+
+    .img-container {
+        margin-top: 0;
+    }
 }
 
- /*social buttons*/
+/*social buttons*/
 section #services {
-    text-align: center;
     transform: translatez(0);
+    margin-top: 50px;
 }
 
 section #services li {
-    width: 120px;
-    height: 140px;
+    width: 80px;
+    height: 80px;
     display: inline-block;
     margin: 20px;
     list-style: none;
 }
+
 section #services li div {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     color: #74d4b3;
     font-size: 3.4em;
     text-align: center;
-    line-height: 120px;
+    line-height: 80px;
     background-color: #fff;
     transition: all 0.5s ease;
 }
+
 section #services li a {
     color: #77cc6d;
 }
+
 section #services li div:hover {
     transform: rotate(360deg);
     border-radius: 100px;
 }
+
 section #services li span {
     width: 120px;
     height: 20px;
