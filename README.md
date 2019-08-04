@@ -1,1 +1,1 @@
-https://kybas.github.io/portfolio.github.io/
+https://kybas.github.io/portfolio.github.io
